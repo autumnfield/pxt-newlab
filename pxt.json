@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.3.5"
     },
     "files": [
         "README.md",

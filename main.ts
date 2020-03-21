@@ -22,7 +22,7 @@ enum ShowNums {
 namespace nlnewlab {
     //% block
     export function printNumber(n: ShowNums) {
-        switch(n) {
+        switch (n) {
             case 1:
                 basic.plotLeds(`
                     . . . . .
@@ -31,7 +31,7 @@ namespace nlnewlab {
                     . . . . .
                     . . . . .
                     `)
-            break;
+                break;
             case 2:
                 basic.plotLeds(`
                 . . . . .
